@@ -1,0 +1,101 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    color: #cbd5e1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0f172a;
+}
+.parallax1, .parallax2, .parallax3, .parallax4, .parallax5, .parallax6 {
+    position: relative;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax1 {
+    background-image: url(../img/mundo.jpg); 
+}
+.parallax2 {
+    background-image: url(../img/mina.png); 
+}
+.parallax3 {
+    background-image: url(../img/espelho.png); 
+}
+.parallax4 {
+    background-image: url(../img/agua.png); 
+}
+.parallax5 {
+    background-image: url(../img/herois.png); 
+}
+.parallax6 {
+    background-image: url(../img/mundo.jpg); 
+}
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+.caption span.border {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    font-size: 28px;
+    letter-spacing: 6px;
+    box-shadow: none;
+}
+.caption span.border a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+.caption span.border a:hover {
+    color: #ffffff; /* Fica branco ao passar o mouse */
+    text-shadow: 0 0 12px #ffd700; /* Efeito de brilho dourado */
+}
+.box1 {
+    color: #334155;
+    background-color: #f8fafc;
+    text-align: justify;
+    padding: 50px 80px;
+    border-top: 3px solid #fbbf24;
+    border-bottom: 3px solid #fbbf24;
+}
+.box1 h3 {
+    text-align: center;
+    color: #0f172a;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.box2 {
+    color: #e2e8f0;
+    background-color: #1e293b;
+    text-align: center;
+    padding: 50px 80px;
+    font-size: 18px;
+    line-height: 1.6;
+    border-top: 3px solid #0284c7;
+    border-bottom: 3px solid #0284c7;
+}
+footer {
+    background-color: #090d16;
+    padding: 35px 0;
+    text-align: center;
+    border-top: 1px solid #334155;
+}
+.footer-links a {
+    color: #fbbf24;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.footer-links a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
